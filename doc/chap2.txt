@@ -1,0 +1,127 @@
+  
+  [1X2 [33X[0;0YTools[133X[101X
+  
+  
+  [1X2.1 [33X[0;0YEmbeddingOfSumOfImagesOfAllMorphisms[133X[101X
+  
+  [1X2.1-1 MorphismOntoSumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XMorphismOntoSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism[133X
+  
+  [33X[0;0YReturn a morphism onto the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
+  
+  [1X2.1-2 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.       [23XF:       A,      B      \mapsto
+  \mathrm{MorphismOntoSumOfImagesOfAllMorphisms}(A, B)[123X.[133X
+  
+  [1X2.1-3 EmbeddingOfSumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism[133X
+  
+  [33X[0;0YReturn the embedding of the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
+  
+  [1X2.1-4 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.       [23XF:       A,       B      \mapsto
+  \mathrm{EmbeddingOfSumOfImagesOfAllMorphisms}(A, B)[123X.[133X
+  
+  [1X2.1-5 SumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism[133X
+  
+  [33X[0;0YReturn the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
+  
+  [1X2.1-6 AddSumOfImagesOfAllMorphisms[101X
+  
+  [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XSumOfImagesOfAllMorphisms[110X.          [23XF:          A,         B         \mapsto
+  \mathrm{SumOfImagesOfAllMorphisms}(A, B)[123X.[133X
+  
+  
+  [1X2.2 [33X[0;0YSystems of homogeneous linear equations in linear categories[133X[101X
+  
+  [1X2.2-1 MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  
+  [33X[1;0Y[29X[2XMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3Xleft_coeffs[103X, [3Xright_coeffs[103X, [3Xright_side[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya boolean[133X
+  
+  [33X[0;0YLike  [10XSolveLinearSystemInAbCategory[110X,  but  the  output  is  simply [10Xtrue[110X if a
+  unique solution exists, and [10Xfalse[110X otherwise.[133X
+  
+  [1X2.2-2 MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  
+  [33X[1;0Y[29X[2XMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3Xleft_coeffs[103X, [3Xright_coeffs[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya boolean[133X
+  
+  [33X[0;0Ybut  the  output  is  [10Xtrue[110X  if  the  homogeneous system has only the trivial
+  solution, and [10Xfalse[110X otherwise.[133X
+  
+  [1X2.2-3 BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[101X
+  
+  [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xbeta[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
+  
+  [33X[0;0YThe  arguments  are two lists of lists [23X\alpha[123X and [23X\beta[123X of morphisms in some
+  linear  category  over  commutative  ring.  The  first list [23X\alpha[123X (the left
+  coefficients)  is  a  list of list of morphisms [23X\alpha_{ij}: A_i \rightarrow
+  B_j[123X,  where  [23Xi  =  1  \dots m[123X and [23Xj = 1 \dots n[123X for integers [23Xm,n \geq 1[123X. The
+  second  list  [23X\beta[123X  (the right coefficients) is a list of list of morphisms
+  [23X\beta_{ij}:  C_j \rightarrow D_i[123X, where [23Xi = 1 \dots m[123X and [23Xj = 1 \dots n[123X. The
+  output  is  either a generating set [23X[X^1,\dots,X^t][123X for the solutions of the
+  homogeneous  linear  system  defined  by [23X\alpha[123X, [23X\beta[123X, i.e., [23X\sum_{j = 1}^n
+  \alpha_{ij}\cdot  X^{k}_{j}  \cdot  \beta_{ij} = 0[123X for all [23Xi = 1 \dots m[123X and
+  all [23Xk = 1 \dots t[123X or [23X\texttt{fail}[123X if no such solution exists.[133X
+  
+  [1X2.2-4 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
+  
+  [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xgamma[103X, [3Xdelta[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
+  
+  [33X[0;0YThe  arguments  are  four  lists  of  lists [23X\alpha[123X, [23X\beta[123X, [23X\gamma[123X, [23X\delta[123X of
+  morphisms  in some linear category over commutative ring. Each of [23X\alpha[123X and
+  [23X\gamma[123X  is  a  list  of  list  of  morphisms  [23X\alpha_{ij},  \gamma_{ij}: A_i
+  \rightarrow B_j[123X, where [23Xi = 1 \dots m[123X and [23Xj = 1 \dots n[123X for integers [23Xm,n \geq
+  1[123X.  Each of [23X\beta[123X and [23X\delta[123X is also a list of list of morphisms [23X\beta_{ij},
+  \delta_{ij}: C_j \rightarrow D_i[123X, where [23Xi = 1 \dots m[123X and [23Xj = 1 \dots n[123X. The
+  output  is  either a generating set [23X[X^1,\dots,X^t][123X for the solutions of the
+  homogeneous linear system defined by [23X\alpha[123X, [23X\beta[123X, [23X\gamma[123X and [23X\delta[123X, i.e.,
+  [23X\sum_{j  = 1}^n \alpha_{ij}\cdot X^{k}_{j} \cdot \beta_{ij} = \sum_{j = 1}^n
+  \gamma_{ij}\cdot X^{k}_{j} \cdot \delta_{ij}[123X for all [23Xi = 1 \dots m[123X and all [23Xk
+  = 1 \dots t[123X or [23X\texttt{fail}[123X if no such solution exists.[133X
+  
+  [1X2.2-5 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
+  
+  [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xdelta[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
+  
+  [33X[0;0YThe arguments are two lists of lists [23X\alpha[123X, [23X\delta[123X morphisms in some linear
+  category  over  commutative  ring.  [23X\alpha[123X  is  a  list of list of morphisms
+  [23X\alpha_{ij}:A_i  \rightarrow  B_j[123X  and [23X\delta[123X is a list of list of morphisms
+  [23X\delta_{ij}:C_j  \rightarrow  D_i[123X, where [23Xi = 1 \dots m[123X and [23Xj = 1 \dots n[123X for
+  integers      [23Xm,n      \geq      1[123X.      The     method     delegates     to
+  [10XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[110X  applied  on
+  [23X\alpha[123X,     [23X\beta[123X,     [23X\gamma[123X,     [23X\delta[123X     where     [23X\beta_{ij}[123X    equals
+  [10XIdentityMorphism[110X([10XSource[110X([23X\delta_{ij}[123X))  whenever  [23X\delta_{ij}[123X is endomorphism
+  and    equals   to   [23X0*\delta_{ij}[123X   otherwise;   and   [23X\gamma_{ij}[123X   equals
+  [10XIdentityMorphism[110X([10XSource[110X([23X\alpha_{ij}[123X))  whenever  [23X\alpha_{ij}[123X is endomorphism
+  and  equals to [23X0*\alpha_{ij}[123X otherwise for all [23Xi = 1 \dots m[123X and [23Xj = 1 \dots
+  n[123X.[133X
+  
