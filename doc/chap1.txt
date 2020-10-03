@@ -43,3 +43,20 @@
   
   [30X    [33X[0;6Ycreate_func_universal_morphism[133X
   
+  
+  [1X1.2 [33X[0;0YOperations[133X[101X
+  
+  [1X1.2-1 UnderlyingCell[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingCell[102X( [3XL[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya list[133X
+  
+  [33X[0;0YReturn [10XList[110X( [3XL[103X, [10XUnderlyingCell[110X ).[133X
+  
+  [1X1.2-2 UnderlyingCell[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingCell[102X( [3Xi[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan integer[133X
+  
+  [33X[0;0YGive the integer [3Xi[103X return [3Xi[103X.[133X
+  

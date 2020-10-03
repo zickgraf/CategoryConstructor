@@ -1,7 +1,7 @@
 name: CategoryConstructor
-version: "2020.09.01"
+version: "2020.09.10"
 license: "GPL-2.0-or-later"
-date: 2020-09-01
+date: 2020-09-10
 description: |
     Construct categories out of given ones
 
@@ -37,7 +37,7 @@ packageinfo: https://homalg-project.github.io/CategoryConstructor/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.09.01/CategoryConstructor-2020.09.01.tar.gz
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.09.10/CategoryConstructor-2020.09.10.tar.gz
 
 abstract: |
 
@@ -50,7 +50,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar20</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>CategoryConstructor, Construct categories out of given ones,
-             Version 2020.09.01</i>
+             Version 2020.09.10</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/CategoryConstructor">https://homalg-project.github.io/CategoryConstructor</a></span>.
@@ -58,9 +58,9 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoryConstructor2020.09.01,
+    @misc{ CategoryConstructor2020.09.10,
       author =           {Barakat, M.},
-      title =            {{CategoryConstructor}, Construct categories out of given ones, {V}ersion 2020.09.01},
+      title =            {{CategoryConstructor}, Construct categories out of given ones, {V}ersion 2020.09.10},
       month =            {Sep},
       year =             {2020},
       note =             {GAP package},

@@ -14,6 +14,8 @@
   [2XMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X, for IsList, IsList, IsList 2.2-1 
   [2XMorphismOntoSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.1-1 
   [2XSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.1-5 
+  [2XUnderlyingCell[102X, for IsInt 1.2-2 
+      for IsList 1.2-1 
   
   
   -------------------------------------------------------
