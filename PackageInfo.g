@@ -11,7 +11,7 @@ SetPackageInfo( rec(
 PackageName := "CategoryConstructor",
 Subtitle := "Construct categories out of given ones",
 Version := Maximum( [
-                   "2020.10.01", ## Mohamed's version
+                   "2020.10-02", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2020.04.06", ## Kamal's version
                    ## this line prevents merge conflicts
@@ -19,8 +19,8 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "17/10/2020",
+Date := "17/10/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -29,7 +29,7 @@ Persons := [
     IsMaintainer := true,
     FirstNames := "Mohamed",
     LastName := "Barakat",
-    WWWHome := "https://mohamed-barakat.github.io",
+    WWWHome := "https://mohamed-barakat.github.io/",
     Email := "mohamed.barakat@uni-siegen.de",
     PostalAddress := Concatenation(
                "Walter-Flex-Str. 3\n",
@@ -52,7 +52,7 @@ README_URL      := "https://homalg-project.github.io/CategoryConstructor/README.
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/CategoryConstructor/releases/download/v", ~.Version, "/CategoryConstructor-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages

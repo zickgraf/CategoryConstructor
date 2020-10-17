@@ -1,17 +1,17 @@
 name: CategoryConstructor
-version: "2020.10.01"
+version: "2020.10-02"
 license: "GPL-2.0-or-later"
-date: 2020-10-01
+date: 2020-10-17
 description: |
     Construct categories out of given ones
 
 authors:
     - name: Mohamed Barakat
-      url: https://mohamed-barakat.github.io
+      url: https://mohamed-barakat.github.io/
 
 maintainers:
     - name: Mohamed Barakat
-      url: https://mohamed-barakat.github.io
+      url: https://mohamed-barakat.github.io/
 
 GAP: ">= 4.9.1"
 
@@ -37,7 +37,11 @@ packageinfo: https://homalg-project.github.io/CategoryConstructor/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.10.01/CategoryConstructor-2020.10.01.tar.gz
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.10-02/CategoryConstructor-2020.10-02.tar.gz
+    - name: .zip
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.10-02/CategoryConstructor-2020.10-02.zip
+
+pdf: https://github.com/homalg-project/CategoryConstructor/releases/download/v2020.10-02/CategoryConstructor-2020.10-02.pdf
 
 abstract: |
 
@@ -50,7 +54,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar20</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>CategoryConstructor, Construct categories out of given ones,
-             Version 2020.10.01</i>
+             Version 2020.10-02</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/CategoryConstructor">https://homalg-project.github.io/CategoryConstructor</a></span>.
@@ -58,10 +62,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoryConstructor2020.10.01,
+    @misc{ CategoryConstructor2020.10-02,
       author =           {Barakat, M.},
       title =            {{CategoryConstructor},  Construct  categories  out  of
-                          given ones, {V}ersion 2020.10.01},
+                          given ones, {V}ersion 2020.10-02},
       month =            {Oct},
       year =             {2020},
       note =             {GAP package},
