@@ -2,9 +2,46 @@
   [1X2 [33X[0;0YTools[133X[101X
   
   
-  [1X2.1 [33X[0;0YIsWeakTerminal[133X[101X
+  [1X2.1 [33X[0;0YPreInverse and PostInverse[133X[101X
   
-  [1X2.1-1 IsWeakTerminal[101X
+  [1X2.1-1 PreInverse[101X
+  
+  [33X[1;0Y[29X[2XPreInverse[102X( [3Xalpha[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X a morphism[133X
+  
+  [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
+  preinverse [23X\iota: B \rightarrow A[123X.[133X
+  
+  [1X2.1-2 AddPreInverse[101X
+  
+  [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given function [23XF[123X to the category for the basic operation [10XPreInverse[110X. [23XF: A, B
+  \mapsto \mathrm{PreInverse}(A, B)[123X.[133X
+  
+  [1X2.1-3 PostInverse[101X
+  
+  [33X[1;0Y[29X[2XPostInverse[102X( [3Xalpha[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X a morphism[133X
+  
+  [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
+  postinverse [23X\iota: B \rightarrow A[123X.[133X
+  
+  [1X2.1-4 AddPostInverse[101X
+  
+  [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given  function [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: A,
+  B \mapsto \mathrm{PostInverse}(A, B)[123X.[133X
+  
+  
+  [1X2.2 [33X[0;0YIsWeakTerminal[133X[101X
+  
+  [1X2.2-1 IsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XIsWeakTerminal[102X( [3Xa[103X ) [32X property[133X
   [6XReturns:[106X  [33X[0;10Ya boolean[133X
@@ -12,7 +49,7 @@
   [33X[0;0YThe  argument is an object [23Xa[123X of a category [23X\mathbf{C}[123X. The output is [10Xtrue[110X if
   [23Xa[123X is weak terminal [23X\mathbf{C}[123X, otherwise the output is [10Xfalse[110X.[133X
   
-  [1X2.1-2 AddIsWeakTerminal[101X
+  [1X2.2-2 AddIsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XAddIsWeakTerminal[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -22,9 +59,9 @@
   a \mapsto \mathtt{IsWeakTerminal}(a)[123X.[133X
   
   
-  [1X2.2 [33X[0;0YIsWeakInitial[133X[101X
+  [1X2.3 [33X[0;0YIsWeakInitial[133X[101X
   
-  [1X2.2-1 IsWeakInitial[101X
+  [1X2.3-1 IsWeakInitial[101X
   
   [33X[1;0Y[29X[2XIsWeakInitial[102X( [3Xa[103X ) [32X property[133X
   [6XReturns:[106X  [33X[0;10Ya boolean[133X
@@ -32,7 +69,7 @@
   [33X[0;0YThe  argument is an object [23Xa[123X of a category [23X\mathbf{C}[123X. The output is [10Xtrue[110X if
   [23Xa[123X is weak initial in [23X\mathbf{C}[123X, otherwise the output is [10Xfalse[110X.[133X
   
-  [1X2.2-2 AddIsWeakInitial[101X
+  [1X2.3-2 AddIsWeakInitial[101X
   
   [33X[1;0Y[29X[2XAddIsWeakInitial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -42,16 +79,16 @@
   \mapsto \mathtt{IsWeakInitial}(a)[123X.[133X
   
   
-  [1X2.3 [33X[0;0YEmbeddingOfSumOfImagesOfAllMorphisms[133X[101X
+  [1X2.4 [33X[0;0YEmbeddingOfSumOfImagesOfAllMorphisms[133X[101X
   
-  [1X2.3-1 MorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.4-1 MorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XMorphismOntoSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism[133X
   
   [33X[0;0YReturn a morphism onto the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
   
-  [1X2.3-2 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.4-2 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -61,14 +98,14 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.       [23XF:       A,      B      \mapsto
   \mathrm{MorphismOntoSumOfImagesOfAllMorphisms}(A, B)[123X.[133X
   
-  [1X2.3-3 EmbeddingOfSumOfImagesOfAllMorphisms[101X
+  [1X2.4-3 EmbeddingOfSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism[133X
   
   [33X[0;0YReturn the embedding of the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
   
-  [1X2.3-4 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
+  [1X2.4-4 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -78,14 +115,14 @@
   [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.       [23XF:       A,       B      \mapsto
   \mathrm{EmbeddingOfSumOfImagesOfAllMorphisms}(A, B)[123X.[133X
   
-  [1X2.3-5 SumOfImagesOfAllMorphisms[101X
+  [1X2.4-5 SumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XSumOfImagesOfAllMorphisms[102X( [3Xa[103X, [3Xb[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism[133X
   
   [33X[0;0YReturn the sum of images of all morphisms between [3Xa[103X and [3Xb[103X.[133X
   
-  [1X2.3-6 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.4-6 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -96,9 +133,9 @@
   \mathrm{SumOfImagesOfAllMorphisms}(A, B)[123X.[133X
   
   
-  [1X2.4 [33X[0;0YSystems of homogeneous linear equations in linear categories[133X[101X
+  [1X2.5 [33X[0;0YSystems of homogeneous linear equations in linear categories[133X[101X
   
-  [1X2.4-1 MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  [1X2.5-1 MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3Xleft_coeffs[103X, [3Xright_coeffs[103X, [3Xright_side[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya boolean[133X
@@ -106,7 +143,7 @@
   [33X[0;0YLike  [10XSolveLinearSystemInAbCategory[110X,  but  the  output  is  simply [10Xtrue[110X if a
   unique solution exists, and [10Xfalse[110X otherwise.[133X
   
-  [1X2.4-2 MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  [1X2.5-2 MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3Xleft_coeffs[103X, [3Xright_coeffs[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya boolean[133X
@@ -114,7 +151,7 @@
   [33X[0;0Ybut  the  output  is  [10Xtrue[110X  if  the  homogeneous system has only the trivial
   solution, and [10Xfalse[110X otherwise.[133X
   
-  [1X2.4-3 BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[101X
+  [1X2.5-3 BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[101X
   
   [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xbeta[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
@@ -130,7 +167,7 @@
   \alpha_{ij}\cdot  X^{k}_{j}  \cdot  \beta_{ij} = 0[123X for all [23Xi = 1 \dots m[123X and
   all [23Xk = 1 \dots t[123X or [23X\texttt{fail}[123X if no such solution exists.[133X
   
-  [1X2.4-4 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
+  [1X2.5-4 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
   
   [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xgamma[103X, [3Xdelta[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
@@ -147,7 +184,7 @@
   \gamma_{ij}\cdot X^{k}_{j} \cdot \delta_{ij}[123X for all [23Xi = 1 \dots m[123X and all [23Xk
   = 1 \dots t[123X or [23X\texttt{fail}[123X if no such solution exists.[133X
   
-  [1X2.4-5 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
+  [1X2.5-5 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[101X
   
   [33X[1;0Y[29X[2XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X( [3Xalpha[103X, [3Xdelta[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list of lists of morphisms [23X[X^1, \dots, X^t][123X[133X
@@ -164,4 +201,15 @@
   [10XIdentityMorphism[110X([10XSource[110X([23X\alpha_{ij}[123X))  whenever  [23X\alpha_{ij}[123X is endomorphism
   and  equals to [23X0*\alpha_{ij}[123X otherwise for all [23Xi = 1 \dots m[123X and [23Xj = 1 \dots
   n[123X.[133X
+  
+  
+  [1X2.6 [33X[0;0YOperations[133X[101X
+  
+  [1X2.6-1 PostInverse[101X
+  
+  [33X[1;0Y[29X[2XPostInverse[102X( [3Xarg[103X ) [32X operation[133X
+  
+  [1X2.6-2 PreInverse[101X
+  
+  [33X[1;0Y[29X[2XPreInverse[102X( [3Xarg[103X ) [32X operation[133X
   
