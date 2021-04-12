@@ -15,12 +15,12 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    "2020.04-06", ## Kamal's version
                    ## this line prevents merge conflicts
-                   "2020.08-16", ## Fabian's version
+                   "2021.03-01", ## Fabian's version
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := "11/12/2020",
-Date := "11/12/2020",
+Date := "12/04/2021",
+Date := "12/04/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -46,7 +46,7 @@ SourceRepository := rec(
     URL := "https://github.com/homalg-project/CategoryConstructor",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://homalg-project.github.io/CategoryConstructor",
+PackageWWWHome  := "https://homalg-project.github.io/pkg/CategoryConstructor",
 PackageInfoURL  := "https://homalg-project.github.io/CategoryConstructor/PackageInfo.g",
 README_URL      := "https://homalg-project.github.io/CategoryConstructor/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/CategoryConstructor/releases/download/v", ~.Version, "/CategoryConstructor-", ~.Version ),
@@ -79,8 +79,8 @@ Dependencies := rec(
   GAP := ">= 4.9.1",
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
-                   [ "CAP", ">= 2019.10.29" ],
-                   [ "MonoidalCategories", ">= 2019.08.10" ],
+                   [ "CAP", ">= 2021.03-01" ],
+                   [ "MonoidalCategories", ">= 2021.03-01" ],
                    ],
   SuggestedOtherPackages := [
                    [ "IO_ForHomalg", ">= 2019.01.01" ],
